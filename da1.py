@@ -94,8 +94,8 @@ def load_data(train_path, test_path, batch_size=16):
     return train_loader, test_loader
 
 if __name__ == '__main__':
-    train_path = '/storage/home/sqd5856/Desktop/default/mamba/mamba-130m-hf/0631/train/train.npz'
-    test_path = '/storage/home/sqd5856/Desktop/default/mamba/mamba-130m-hf/0631/test/test.npz'
+    train_path = 'default/mamba/mamba-130m-hf/0631/train/train.npz'
+    test_path = 'default/mamba/mamba-130m-hf/0631/test/test.npz'
     
     train_loader, test_loader = load_data(train_path, test_path)
 
